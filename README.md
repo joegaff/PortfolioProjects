@@ -2,7 +2,7 @@
 This repository is part of my portfolio project, where I aim to showcase my data analysis skills and proficiency in working with Excel, SQL databases, and Tableau.
 
 ## Requirements
-- MySQL server (Version X.X.X) with appropriate privileges to access the database.
+- MySQL server 
 
 ## Structure
 The repository is organized as follows:
