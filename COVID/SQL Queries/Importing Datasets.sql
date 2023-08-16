@@ -1,4 +1,8 @@
-DROP TABLE IF EXISTS coviddeaths;
+/* --------------------
+        SCHEMA SQL
+   --------------------*/
+
+-- Creating a datatable for data regarding deaths from COVID-19
 USE Portfolio_Project;
 CREATE TABLE `coviddeaths` (
   `iso_code` text,
@@ -28,19 +32,14 @@ CREATE TABLE `coviddeaths` (
   `weekly_hosp_admissions` double DEFAULT NULL,
   `weekly_hosp_admissions_per_million` double DEFAULT NULL);
 
-
+-- Load Data into Table
 LOAD DATA LOCAL INFILE '/Users/joegaffney/Downloads/CovidDeaths.csv'
 INTO TABLE Portfolio_Project.coviddeaths
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
 
-
-
-
-
-## Importing COVID Vaccination Table
-DROP TABLE IF EXISTS covidvaccinations;
+-- Creating a datatable for data regarding COVID-19 vaccinations
 USE Portfolio_Project;
 CREATE TABLE covidvaccinations (
     iso_code VARCHAR(3),
@@ -89,11 +88,9 @@ CREATE TABLE covidvaccinations (
     excess_mortality DOUBLE,
     excess_mortality_cumulative_per_million DOUBLE);
 
-
+-- Load data into table 
 LOAD DATA LOCAL INFILE '/Users/joegaffney/Downloads/CovidVaccinations.csv'
 INTO TABLE Portfolio_Project.covidvaccinations
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES;
-
-covidvaccinations
