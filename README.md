@@ -2,7 +2,8 @@
 This repository is part of my portfolio project, where I aim to showcase my data analysis skills and proficiency in working with Excel, SQL databases, and Tableau.
 
 ## Requirements
-- MySQL server 
+- MySQL server
+- Tableau
 
 ## Structure
 The repository is organized as follows:
