@@ -11,9 +11,9 @@ The repository is organized into several sections to facilitate easy navigation 
 
 ## Project List
 
-1. **Boston 2022 Redistricting Map Proposal**: Leveraged Excel for data preprocessing, SQL for data querying, and Tableau for interactive visualization, I contributed to the creation of a map proposal during the 2022 Boston Redistricting Process, adhering to federal guidelines and community response
-2. **Box Office Statistical Analysis**: Ran a linear regression in STATA to evaluate key factors impacting movie earnings, analyzed the accuracy of the model using outputs like adjusted R-square and RMSE, and used the regression results to run predictive models to forecast the performance of upcoming films at the box office
-3. **Cyclistic Case Study**: Utilized SQL for data analysis and Tableau Public for visualization to find distinct patterns between annual and casual bike-sharing riders, thereby guiding the formulation of marketing strategies to boost membership growth
+1. *Boston 2022 Redistricting Map Proposal*: Leveraged Excel for data preprocessing, SQL for data querying, and Tableau for interactive visualization, I contributed to the creation of a map proposal during the 2022 Boston Redistricting Process, adhering to federal guidelines and community response
+2. *Box Office Statistical Analysis*: Ran a linear regression in STATA to evaluate key factors impacting movie earnings, analyzed the accuracy of the model using outputs like adjusted R-square and RMSE, and used the regression results to run predictive models to forecast the performance of upcoming films at the box office
+3. *Cyclistic Case Study*: Utilized SQL for data analysis and Tableau Public for visualization to find distinct patterns between annual and casual bike-sharing riders, thereby guiding the formulation of marketing strategies to boost membership growth
 
 ## Technologies Used
 
